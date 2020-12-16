@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>projet 2</title>
+    </head>
+
+    <body>
+     <h1>Employee Interests Survey form</h1>
+    <form method="post">
+    <p>
+        <label>Enter your name:</label>
+        <input type="text" name="nom" id="nom"/>
+    </p>
+    <p>
+    	<label>Enter dour departement:</label>
+    	<input type="text" name="département" id="département"/>
+    </p>
+    <p>
+    	<label>Tell us a little about yourself:</label>
+    	<textarea name="ameliorer" id="ameliorer"></textarea></p>
+    	<br/>
+    	<p>
+    		Do you exercice at home?
+    	<input type="radio" name="yes" id="yes" /><label>yes</label>
+    	<input type="radio" name="no" id="no" /><label>no</label>
+    </p><br/>
+    <p>
+    	How do you do like to read about your favorite topics?
+    <br/>
+        <input type="checkbox" name="books" id="books" /><label>books</label>
+        <input type="checkbox" name="ressources" id="ressources" /><label>online ressources</label>
+        <input type="checkbox" name="apps" id="apps" /><label>phone apps</label>
+        <input type="checkbox" name="magazines" id="magazines" /><label>magazines</label>
+    </p><br/>
+    <p>
+    <label for="genre">What genre of movies do you like?</label>
+    <select name="genre" id="genre">
+    	 <option value="comedy">comedy</option>
+    	 <option value="action">action</option>
+    	 <option value="thriller">thriller</option>
+    	 <option value="romance">romance</option>
+    	 <option value="fantasy">fantasy</option>
+    	 <option value="drama">drama</option>
+    	 <option value="horror">horror</option>
+    </select>
+    </p><br/>
+    <input type="submit" value="submit form" />
+    </form>
+    </body>
